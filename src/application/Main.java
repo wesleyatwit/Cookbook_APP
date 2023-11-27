@@ -18,7 +18,7 @@ public class Main extends Application {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("Hello");
+		System.out.println("I AM BATMAN!");
 	}
 	
 	public static void main(String[] args) {
