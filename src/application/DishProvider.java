@@ -1,0 +1,106 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DishProvider {
+
+    public List<Dish> getDishes() {
+    	List<Dish> dishes = new ArrayList<>();
+
+        // Italian
+        dishes.add(new Dish("Spaghetti Bolognese", "Classic Italian pasta dish with meat sauce", "Recipe 1", 30, "path_to_spaghetti_bolognese.jpg", "Italian"));
+        dishes.add(new Dish("Margherita Pizza", "Traditional pizza with tomato, mozzarella, and basil", "Recipe 2", 20, "path_to_margherita_pizza.jpg", "Italian"));
+        dishes.add(new Dish("Risotto al Funghi", "Creamy risotto with mushrooms", "Recipe 3", 25, "path_to_risotto_al_funghi.jpg", "Italian"));
+        dishes.add(new Dish("Osso Buco", "Braised veal shanks with gremolata", "Recipe 4", 40, "path_to_osso_buco.jpg", "Italian"));
+        dishes.add(new Dish("Tiramisu", "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone", "Recipe 5", 15, "path_to_tiramisu.jpg", "Italian"));
+        dishes.add(new Dish("Fettuccine Alfredo", "Pasta with creamy Alfredo sauce", "Recipe 6", 25, "path_to_fettuccine_alfredo.jpg", "Italian"));
+        dishes.add(new Dish("Caprese Salad", "Simple salad with tomatoes, mozzarella, and basil", "Recipe 7", 10, "path_to_caprese_salad.jpg", "Italian"));
+        dishes.add(new Dish("Gnocchi alla Sorrentina", "Potato dumplings with tomato sauce and mozzarella", "Recipe 8", 30, "path_to_gnocchi_alla_sorrentina.jpg", "Italian"));
+        dishes.add(new Dish("Bruschetta", "Toasted bread topped with tomatoes, garlic, and basil", "Recipe 9", 15, "path_to_bruschetta.jpg", "Italian"));
+        dishes.add(new Dish("Limoncello Tiramisu", "Tiramisu with a twist, infused with limoncello", "Recipe 10", 20, "path_to_limoncello_tiramisu.jpg", "Italian"));
+        
+        // American
+        dishes.add(new Dish("Hamburger", "Classic American burger with a beef patty, lettuce, and tomato", "Recipe 11", 20, "path_to_hamburger.jpg", "American"));
+        dishes.add(new Dish("Hot Dog", "Traditional American hot dog with mustard and sauerkraut", "Recipe 12", 15, "path_to_hot_dog.jpg", "American"));
+        dishes.add(new Dish("Macaroni and Cheese", "Creamy macaroni pasta with melted cheese", "Recipe 13", 25, "path_to_macaroni_and_cheese.jpg", "American"));
+        dishes.add(new Dish("Chicken Pot Pie", "Savory pie filled with chicken, vegetables, and gravy", "Recipe 14", 45, "path_to_chicken_pot_pie.jpg", "American"));
+        dishes.add(new Dish("Buffalo Wings", "Spicy chicken wings with buffalo sauce", "Recipe 15", 30, "path_to_buffalo_wings.jpg", "American"));
+        dishes.add(new Dish("Clam Chowder", "Creamy soup with clams, potatoes, and bacon", "Recipe 16", 35, "path_to_clam_chowder.jpg", "American"));
+        dishes.add(new Dish("Barbecue Ribs", "Slow-cooked ribs with barbecue sauce", "Recipe 17", 60, "path_to_barbecue_ribs.jpg", "American"));
+        dishes.add(new Dish("Pancakes", "Fluffy pancakes served with syrup and butter", "Recipe 18", 15, "path_to_pancakes.jpg", "American"));
+        dishes.add(new Dish("Cheeseburger", "Burger with cheese, lettuce, and tomato", "Recipe 19", 25, "path_to_cheeseburger.jpg", "American"));
+        dishes.add(new Dish("Apple Pie", "Classic American pie with apple filling", "Recipe 20", 50, "path_to_apple_pie.jpg", "American"));
+        
+        // French
+        dishes.add(new Dish("Coq au Vin", "Classic French dish of chicken braised with wine, mushrooms, and onions", "Recipe 21", 60, "path_to_coq_au_vin.jpg", "French"));
+        dishes.add(new Dish("Ratatouille", "Vegetable stew with eggplant, zucchini, and bell peppers", "Recipe 22", 40, "path_to_ratatouille.jpg", "French"));
+        dishes.add(new Dish("Croissant", "Flaky and buttery French pastry", "Recipe 23", 30, "path_to_croissant.jpg", "French"));
+        dishes.add(new Dish("Escargot", "Snails cooked in garlic, parsley, and butter", "Recipe 24", 20, "path_to_escargot.jpg", "French"));
+        dishes.add(new Dish("Quiche Lorraine", "Savory tart with bacon and cheese filling", "Recipe 25", 35, "path_to_quiche_lorraine.jpg", "French"));
+        dishes.add(new Dish("Bouillabaisse", "Fish stew with various Mediterranean fish, shellfish, and herbs", "Recipe 26", 50, "path_to_bouillabaisse.jpg", "French"));
+        dishes.add(new Dish("Crêpes", "Thin pancakes filled with sweet or savory ingredients", "Recipe 27", 25, "path_to_crepes.jpg", "French"));
+        dishes.add(new Dish("Cassoulet", "Slow-cooked casserole with meat and white beans", "Recipe 28", 75, "path_to_cassoulet.jpg", "French"));
+        dishes.add(new Dish("Salade Niçoise", "Salad with tuna, olives, and anchovies", "Recipe 29", 20, "path_to_salade_nicoise.jpg", "French"));
+        dishes.add(new Dish("Tarte Tatin", "Upside-down caramelized apple tart", "Recipe 30", 40, "path_to_tarte_tatin.jpg", "French"));
+        
+        // Korean
+        dishes.add(new Dish("Bibimbap", "Mixed rice bowl with vegetables, meat, and a spicy sauce", "Recipe 31", 30, "path_to_bibimbap.jpg", "Korean"));
+        dishes.add(new Dish("Kimchi Jjigae", "Kimchi stew with tofu, vegetables, and pork", "Recipe 32", 40, "path_to_kimchi_jjigae.jpg", "Korean"));
+        dishes.add(new Dish("Bulgogi", "Marinated and grilled beef slices", "Recipe 33", 25, "path_to_bulgogi.jpg", "Korean"));
+        dishes.add(new Dish("Japchae", "Stir-fried glass noodles with vegetables and beef", "Recipe 34", 35, "path_to_japchae.jpg", "Korean"));
+        dishes.add(new Dish("Sundubu Jjigae", "Soft tofu stew with vegetables and sometimes meat", "Recipe 35", 30, "path_to_sundubu_jjigae.jpg", "Korean"));
+        dishes.add(new Dish("Samgyeopsal", "Grilled pork belly served with dipping sauces", "Recipe 36", 20, "path_to_samgyeopsal.jpg", "Korean"));
+        dishes.add(new Dish("Dolsot Bibimbap", "Bibimbap served in a hot stone pot", "Recipe 37", 35, "path_to_dolsot_bibimbap.jpg", "Korean"));
+        dishes.add(new Dish("Kimchi Fried Rice", "Fried rice with kimchi and other ingredients", "Recipe 38", 25, "path_to_kimchi_fried_rice.jpg", "Korean"));
+        dishes.add(new Dish("Kimbap", "Seaweed rice rolls with vegetables and sometimes meat", "Recipe 39", 30, "path_to_kimbap.jpg", "Korean"));
+        dishes.add(new Dish("Haemul Pajeon", "Seafood and green onion pancake", "Recipe 40", 40, "path_to_haemul_pajeon.jpg", "Korean"));
+        
+        // Chinese
+        dishes.add(new Dish("Sweet and Sour Chicken", "Crispy chicken with sweet and sour sauce", "Recipe 41", 30, "path_to_sweet_and_sour_chicken.jpg", "Chinese"));
+        dishes.add(new Dish("Kung Pao Chicken", "Spicy chicken stir-fry with peanuts and vegetables", "Recipe 42", 25, "path_to_kung_pao_chicken.jpg", "Chinese"));
+        dishes.add(new Dish("Dim Sum", "Assortment of bite-sized dishes, often served in steamer baskets", "Recipe 43", 40, "path_to_dim_sum.jpg", "Chinese"));
+        dishes.add(new Dish("Peking Duck", "Roasted duck served with thin pancakes and hoisin sauce", "Recipe 44", 60, "path_to_peking_duck.jpg", "Chinese"));
+        dishes.add(new Dish("Mapo Tofu", "Spicy tofu dish with minced meat and fermented black beans", "Recipe 45", 30, "path_to_mapo_tofu.jpg", "Chinese"));
+        dishes.add(new Dish("Chow Mein", "Stir-fried noodles with vegetables and sometimes meat", "Recipe 46", 35, "path_to_chow_mein.jpg", "Chinese"));
+        dishes.add(new Dish("Hot Pot", "Cooking pot at the dining table with broth, meats, and vegetables", "Recipe 47", 45, "path_to_hot_pot.jpg", "Chinese"));
+        dishes.add(new Dish("Spring Rolls", "Crispy rolls filled with vegetables, meat, and sometimes shrimp", "Recipe 48", 30, "path_to_spring_rolls.jpg", "Chinese"));
+        dishes.add(new Dish("General Tso's Chicken", "Crispy chicken in a sweet and spicy sauce", "Recipe 49", 25, "path_to_general_tsos_chicken.jpg", "Chinese"));
+        dishes.add(new Dish("Egg Fried Rice", "Fried rice with scrambled eggs and vegetables", "Recipe 50", 20, "path_to_egg_fried_rice.jpg", "Chinese"));
+        
+        // Creole
+        dishes.add(new Dish("Gumbo", "Stew with a strong-flavored stock, meat or shellfish, and vegetables", "Recipe 51", 45, "path_to_gumbo.jpg", "Creole"));
+        dishes.add(new Dish("Jambalaya", "One-pot rice dish with meat, vegetables, and spices", "Recipe 52", 35, "path_to_jambalaya.jpg", "Creole"));
+        dishes.add(new Dish("Shrimp and Grits", "Sauteed shrimp served over creamy grits", "Recipe 53", 30, "path_to_shrimp_and_grits.jpg", "Creole"));
+        dishes.add(new Dish("Étouffée", "Stew made with shellfish like crawfish, served over rice", "Recipe 54", 40, "path_to_etouffee.jpg", "Creole"));
+        dishes.add(new Dish("Red Beans and Rice", "Stewed red beans served with rice", "Recipe 55", 40, "path_to_red_beans_and_rice.jpg", "Creole"));
+        dishes.add(new Dish("Crawfish Boil", "Boiled crawfish with potatoes, corn, and spices", "Recipe 56", 50, "path_to_crawfish_boil.jpg", "Creole"));
+        dishes.add(new Dish("Dirty Rice", "Rice dish with meat, vegetables, and spices", "Recipe 57", 30, "path_to_dirty_rice.jpg", "Creole"));
+        dishes.add(new Dish("Bananas Foster", "Dessert made with bananas, brown sugar, and rum", "Recipe 58", 20, "path_to_bananas_foster.jpg", "Creole"));
+        dishes.add(new Dish("Muffuletta", "Sandwich with a variety of meats and olive salad", "Recipe 59", 15, "path_to_muffuletta.jpg", "Creole"));
+        dishes.add(new Dish("King Cake", "Traditional cake associated with Mardi Gras", "Recipe 60", 40, "path_to_king_cake.jpg", "Creole"));
+        
+        // Cajun
+        dishes.add(new Dish("Cajun Shrimp and Grits", "Spicy shrimp served over creamy grits", "Recipe 61", 30, "path_to_cajun_shrimp_and_grits.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Chicken Pasta", "Chicken and pasta dish with a Cajun cream sauce", "Recipe 62", 35, "path_to_cajun_chicken_pasta.jpg", "Cajun"));
+        dishes.add(new Dish("Blackened Catfish", "Catfish fillets coated in spices and pan-seared", "Recipe 63", 25, "path_to_blackened_catfish.jpg", "Cajun"));
+        dishes.add(new Dish("Andouille Sausage Gumbo", "Gumbo made with Andouille sausage, chicken, and seafood", "Recipe 64", 45, "path_to_andouille_sausage_gumbo.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Dirty Rice", "Rice dish with ground meat, vegetables, and spices", "Recipe 65", 30, "path_to_cajun_dirty_rice.jpg", "Cajun"));
+        dishes.add(new Dish("Crawfish Étouffée", "Crawfish in a rich, flavorful roux-based sauce, served over rice", "Recipe 66", 40, "path_to_crawfish_etouffee.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Boudin", "Sausage made with pork, rice, and Cajun spices", "Recipe 67", 20, "path_to_cajun_boudin.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Red Beans and Rice", "Red beans slow-cooked with Cajun spices, served over rice", "Recipe 68", 40, "path_to_cajun_red_beans_and_rice.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Shrimp Boil", "Shrimp, corn, potatoes, and sausage boiled in Cajun seasoning", "Recipe 69", 50, "path_to_cajun_shrimp_boil.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Chicken Jambalaya", "Spicy one-pot rice dish with chicken and sausage", "Recipe 70", 35, "path_to_cajun_chicken_jambalaya.jpg", "Cajun"));
+        
+        // Mexican
+        
+        
+        // Irish
+        
+        
+        // English
+        
+        
+        return dishes;
+    }
+}
