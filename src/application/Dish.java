@@ -4,28 +4,52 @@ public class Dish {
     private String name;
     private String description;
     private String recipe;
-    private int cookTime; // Assuming cook time is in minutes
+    private int cookTime;
     private String imagePath;
+    private String cuisineType;
 
-    // Constructors, getters, and setters
+    public Dish(String dishName, String dishDescription, String recipeNum, int dishCookTime, String dishImagePath, String dishCuisineType) {
+		this.name = dishName;
+		this.description = dishDescription;
+		this.recipe = recipeNum;
+		this.cookTime = dishCookTime;
+		this.imagePath = dishImagePath;
+		this.cuisineType = dishCuisineType;
+	}
 
-    // Example constructor
-    public Dish(String name, String description, String recipe, int cookTime, String imagePath, String cuisine_type) {
+	public String getName() {
+        return name;
+    } public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    } public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getRecipe() {
+        return recipe;
+    } public void setRecipe(String recipe) {
         this.recipe = recipe;
+    }
+    
+    public int getCookTime() {
+        return cookTime;
+    } public void setCookTime(int cookTime) {
         this.cookTime = cookTime;
+    }
+
+    public String getImagePath() {
+        return imagePath;
+    } public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
     }
-
-    // Getters and setters for all properties
-    public String getName() {
-        return name;
+    
+    public String getCuisineType() {
+        return cuisineType;
+    } public void setCuisineType(String cuisineType) {
+        this.cuisineType = cuisineType;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    // Repeat for other properties
 }

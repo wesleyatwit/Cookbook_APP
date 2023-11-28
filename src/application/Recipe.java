@@ -12,7 +12,7 @@ public class Recipe {
     }
 
     private void initializeRecipes() {
-        
+        recipes.add("Recipe 1");
     }
 
     public String getRecipe(int index) {
