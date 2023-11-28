@@ -9,8 +9,8 @@ public class DishProvider {
     	List<Dish> dishes = new ArrayList<>();
 
         // Italian
-        dishes.add(new Dish("Spaghetti Bolognese", "Classic Italian pasta dish with meat sauce", "Recipe 1", 30, "path_to_spaghetti_bolognese.jpg", "Italian"));
-        dishes.add(new Dish("Margherita Pizza", "Traditional pizza with tomato, mozzarella, and basil", "Recipe 2", 20, "path_to_margherita_pizza.jpg", "Italian"));
+        dishes.add(new Dish("Spaghetti Bolognese", "Classic Italian pasta dish with meat sauce", Recipe.getSpaghettiBologneseSteps(), 30, "path_to_spaghetti_bolognese.jpg", "Italian"));
+        dishes.add(new Dish("Margherita Pizza", "Traditional pizza with tomato, mozzarella, and basil", Recipe.get, 20, "path_to_margherita_pizza.jpg", "Italian"));
         dishes.add(new Dish("Risotto al Funghi", "Creamy risotto with mushrooms", "Recipe 3", 25, "path_to_risotto_al_funghi.jpg", "Italian"));
         dishes.add(new Dish("Osso Buco", "Braised veal shanks with gremolata", "Recipe 4", 40, "path_to_osso_buco.jpg", "Italian"));
         dishes.add(new Dish("Tiramisu", "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone", "Recipe 5", 15, "path_to_tiramisu.jpg", "Italian"));

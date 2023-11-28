@@ -1,17 +1,19 @@
 package application;
 
+import java.util.List;
+
 public class Dish {
     private String name;
     private String description;
-    private String recipe;
+    private List<String> recipe;
     private int cookTime;
     private String imagePath;
     private String cuisineType;
 
-    public Dish(String dishName, String dishDescription, String recipeNum, int dishCookTime, String dishImagePath, String dishCuisineType) {
+    public Dish(String dishName, String dishDescription, List<String> dishRecipe, int dishCookTime, String dishImagePath, String dishCuisineType) {
 		this.name = dishName;
 		this.description = dishDescription;
-		this.recipe = recipeNum;
+		this.recipe = dishRecipe;
 		this.cookTime = dishCookTime;
 		this.imagePath = dishImagePath;
 		this.cuisineType = dishCuisineType;
@@ -29,9 +31,9 @@ public class Dish {
         this.description = description;
     }
 
-    public String getRecipe() {
+    public List<String> getRecipe() {
         return recipe;
-    } public void setRecipe(String recipe) {
+    } public void setRecipe(List<String> recipe) {
         this.recipe = recipe;
     }
     
