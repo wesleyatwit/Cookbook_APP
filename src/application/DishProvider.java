@@ -69,28 +69,28 @@ public class DishProvider {
         dishes.add(new Dish("Egg Fried Rice", "Fried rice with scrambled eggs and vegetables", "Recipe 50", 20, "path_to_egg_fried_rice.jpg", "Chinese"));
         
         // Creole
-        dishes.add(new Dish("Gumbo", "Stew with a strong-flavored stock, meat or shellfish, and vegetables", "Recipe 51", 45, "path_to_gumbo.jpg", "Creole"));
-        dishes.add(new Dish("Jambalaya", "One-pot rice dish with meat, vegetables, and spices", "Recipe 52", 35, "path_to_jambalaya.jpg", "Creole"));
-        dishes.add(new Dish("Shrimp and Grits", "Sauteed shrimp served over creamy grits", "Recipe 53", 30, "path_to_shrimp_and_grits.jpg", "Creole"));
-        dishes.add(new Dish("Étouffée", "Stew made with shellfish like crawfish, served over rice", "Recipe 54", 40, "path_to_etouffee.jpg", "Creole"));
-        dishes.add(new Dish("Red Beans and Rice", "Stewed red beans served with rice", "Recipe 55", 40, "path_to_red_beans_and_rice.jpg", "Creole"));
-        dishes.add(new Dish("Crawfish Boil", "Boiled crawfish with potatoes, corn, and spices", "Recipe 56", 50, "path_to_crawfish_boil.jpg", "Creole"));
-        dishes.add(new Dish("Dirty Rice", "Rice dish with meat, vegetables, and spices", "Recipe 57", 30, "path_to_dirty_rice.jpg", "Creole"));
-        dishes.add(new Dish("Bananas Foster", "Dessert made with bananas, brown sugar, and rum", "Recipe 58", 20, "path_to_bananas_foster.jpg", "Creole"));
-        dishes.add(new Dish("Muffuletta", "Sandwich with a variety of meats and olive salad", "Recipe 59", 15, "path_to_muffuletta.jpg", "Creole"));
-        dishes.add(new Dish("King Cake", "Traditional cake associated with Mardi Gras", "Recipe 60", 40, "path_to_king_cake.jpg", "Creole"));
+        dishes.add(new Dish("Gumbo", "Stew with a strong-flavored stock, meat or shellfish, and vegetables", Recipe.getGumboSteps(), 45, "path_to_gumbo.jpg", "Creole"));
+        dishes.add(new Dish("Jambalaya", "One-pot rice dish with meat, vegetables, and spices", Recipe.getJambalayaSteps()a, 35, "path_to_jambalaya.jpg", "Creole"));
+        dishes.add(new Dish("Shrimp and Grits", "Sauteed shrimp served over creamy grits", Recipe.getShrimpAndGritsSteps(), 30, "path_to_shrimp_and_grits.jpg", "Creole"));
+        dishes.add(new Dish("Étouffée", "Stew made with shellfish like crawfish, served over rice", Recipe.getEtouffeeSteps(), 40, "path_to_etouffee.jpg", "Creole"));
+        dishes.add(new Dish("Red Beans and Rice", "Stewed red beans served with rice", Recipe.getRedBeansAndRiceSteps(), 40, "path_to_red_beans_and_rice.jpg", "Creole"));
+        dishes.add(new Dish("Crawfish Boil", "Boiled crawfish with potatoes, corn, and spices", Recipe.getCrawfishBoilSteps(), 50, "path_to_crawfish_boil.jpg", "Creole"));
+        dishes.add(new Dish("Dirty Rice", "Rice dish with meat, vegetables, and spices", Recipe.getDirtyRiceSteps(), 30, "path_to_dirty_rice.jpg", "Creole"));
+        dishes.add(new Dish("Bananas Foster", "Dessert made with bananas, brown sugar, and rum", Recipe.getBananasFosterSteps(), 20, "path_to_bananas_foster.jpg", "Creole"));
+        dishes.add(new Dish("Muffuletta", "Sandwich with a variety of meats and olive salad", Recipe.getMuffulettaSteps(), 15, "path_to_muffuletta.jpg", "Creole"));
+        dishes.add(new Dish("King Cake", "Traditional cake associated with Mardi Gras", Recipe.getKingCakeSteps(), 40, "path_to_king_cake.jpg", "Creole"));
         
         // Cajun
-        dishes.add(new Dish("Cajun Shrimp and Grits", "Spicy shrimp served over creamy grits", "Recipe 61", 30, "path_to_cajun_shrimp_and_grits.jpg", "Cajun"));
-        dishes.add(new Dish("Cajun Chicken Pasta", "Chicken and pasta dish with a Cajun cream sauce", "Recipe 62", 35, "path_to_cajun_chicken_pasta.jpg", "Cajun"));
-        dishes.add(new Dish("Blackened Catfish", "Catfish fillets coated in spices and pan-seared", "Recipe 63", 25, "path_to_blackened_catfish.jpg", "Cajun"));
-        dishes.add(new Dish("Andouille Sausage Gumbo", "Gumbo made with Andouille sausage, chicken, and seafood", "Recipe 64", 45, "path_to_andouille_sausage_gumbo.jpg", "Cajun"));
-        dishes.add(new Dish("Cajun Dirty Rice", "Rice dish with ground meat, vegetables, and spices", "Recipe 65", 30, "path_to_cajun_dirty_rice.jpg", "Cajun"));
-        dishes.add(new Dish("Crawfish Étouffée", "Crawfish in a rich, flavorful roux-based sauce, served over rice", "Recipe 66", 40, "path_to_crawfish_etouffee.jpg", "Cajun"));
-        dishes.add(new Dish("Cajun Boudin", "Sausage made with pork, rice, and Cajun spices", "Recipe 67", 20, "path_to_cajun_boudin.jpg", "Cajun"));
-        dishes.add(new Dish("Cajun Red Beans and Rice", "Red beans slow-cooked with Cajun spices, served over rice", "Recipe 68", 40, "path_to_cajun_red_beans_and_rice.jpg", "Cajun"));
-        dishes.add(new Dish("Cajun Shrimp Boil", "Shrimp, corn, potatoes, and sausage boiled in Cajun seasoning", "Recipe 69", 50, "path_to_cajun_shrimp_boil.jpg", "Cajun"));
-        dishes.add(new Dish("Cajun Chicken Jambalaya", "Spicy one-pot rice dish with chicken and sausage", "Recipe 70", 35, "path_to_cajun_chicken_jambalaya.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Shrimp and Grits", "Spicy shrimp served over creamy grits", Recipe.getCajunShrimpAndGritsSteps(), 30, "path_to_cajun_shrimp_and_grits.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Chicken Pasta", "Chicken and pasta dish with a Cajun cream sauce", Recipe.getCajunChickenPastaSteps(), 35, "path_to_cajun_chicken_pasta.jpg", "Cajun"));
+        dishes.add(new Dish("Blackened Catfish", "Catfish fillets coated in spices and pan-seared", Recipe.getBlackenedCatfishSteps(), 25, "path_to_blackened_catfish.jpg", "Cajun"));
+        dishes.add(new Dish("Andouille Sausage Gumbo", "Gumbo made with Andouille sausage, chicken, and seafood", Recipe.getAndouilleSausageGumboSteps(), 45, "path_to_andouille_sausage_gumbo.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Dirty Rice", "Rice dish with ground meat, vegetables, and spices", Recipe.getCajunDirtyRiceSteps(), 30, "path_to_cajun_dirty_rice.jpg", "Cajun"));
+        dishes.add(new Dish("Crawfish Étouffée", "Crawfish in a rich, flavorful roux-based sauce, served over rice", Recipe.getCrawfishEtouffeeSteps(), 40, "path_to_crawfish_etouffee.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Boudin", "Sausage made with pork, rice, and Cajun spices", Recipe.getCajunBoudinSteps(), 20, "path_to_cajun_boudin.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Red Beans and Rice", "Red beans slow-cooked with Cajun spices, served over rice", Recipe.getCajunRedBeansAndRiceSteps(), 40, "path_to_cajun_red_beans_and_rice.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Shrimp Boil", "Shrimp, corn, potatoes, and sausage boiled in Cajun seasoning", Recipe.getCajunShrimpBoilSteps(), 50, "path_to_cajun_shrimp_boil.jpg", "Cajun"));
+        dishes.add(new Dish("Cajun Chicken Jambalaya", "Spicy one-pot rice dish with chicken and sausage", Recipe.getCajunChickenJambalayaSteps(), 35, "path_to_cajun_chicken_jambalaya.jpg", "Cajun"));
         
         // Mexican
         dishes.add(new Dish("Tacos al Pastor", "Tacos with marinated and spit-roasted pork", Recipe.getTacosAlPastorSteps(), 25, "path_to_tacos_al_pastor.jpg", "Mexican"));
