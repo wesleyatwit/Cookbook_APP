@@ -120,6 +120,17 @@ public class Recipe {
 				"Assemble the burgers with lettuce, tomato, onion, and any desired condiments.",
 				"Serve hot and enjoy!");
 	}
+	
+	static public List<String> getBurgerSteps() {
+        return Arrays.asList(
+            "Preheat the grill to medium-high heat.",
+            "Season ground beef with salt and pepper.",
+            "Form beef into patties and grill for 3-4 minutes per side, or until cooked to your liking.",
+            "Toast the burger buns on the grill.",
+            "Assemble the burgers with lettuce, tomato slices, onion, ketchup, and mustard.",
+            "Serve hot and enjoy your classic regular burger!"
+        );
+    }
 
 	static public List<String> getHotDogSteps() {
 		return Arrays.asList("Preheat the grill or stovetop pan to medium heat.",
@@ -200,15 +211,22 @@ public class Recipe {
 				"Let the cookies cool on the sheets for a few minutes before transferring to wire racks.");
 	}
 
-	static public List<String> getBBQBurgerSteps() {
-		return Arrays.asList("Preheat the grill to medium-high heat.", "Season ground beef with barbecue seasoning.",
-				"Form beef into patties and grill for 3-4 minutes per side, or until cooked to your liking.",
-				"Grill pineapple slices for 1-2 minutes on each side.", "Toast the burger buns on the grill.",
-				"Assemble the burgers with lettuce, barbecue sauce, grilled pineapple, and any desired toppings.",
-				"Serve hot and enjoy!");
-	}
+	static public List<String> getChickenPotPieSteps() {
+        return Arrays.asList(
+            "Preheat the oven to 425°F (220°C).",
+            "In a large skillet, melt butter over medium heat. Add diced chicken and cook until browned.",
+            "Add diced potatoes, carrots, peas, and diced onions to the skillet. Cook until vegetables are slightly softened.",
+            "Sprinkle flour over the mixture and stir to combine, cooking for an additional 2 minutes.",
+            "Gradually whisk in chicken broth and milk, ensuring a smooth consistency. Cook until the mixture thickens.",
+            "Season with salt, pepper, and any desired herbs or spices.",
+            "Pour the chicken and vegetable mixture into a prepared pie crust.",
+            "Place the second pie crust on top, sealing the edges and cutting a few slits in the center for ventilation.",
+            "Bake in the preheated oven for 30-35 minutes or until the crust is golden brown.",
+            "Remove from the oven and let it cool for a few minutes before serving.",
+            "Enjoy your delicious homemade Chicken Pot Pie!"
+        );
+    }
 
-// French Recipes
 	// French Recipes
 	static public List<String> getCoqAuVinSteps() {
 		return Arrays.asList("Season chicken with salt and pepper.",

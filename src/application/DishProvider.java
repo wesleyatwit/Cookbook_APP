@@ -11,38 +11,38 @@ public class DishProvider {
         // Italian
         dishes.add(new Dish("Spaghetti Bolognese", "Classic Italian pasta dish with meat sauce", Recipe.getSpaghettiBologneseSteps(), 30, "path_to_spaghetti_bolognese.jpg", "Italian"));
         dishes.add(new Dish("Margherita Pizza", "Traditional pizza with tomato, mozzarella, and basil", Recipe.getMargheritaPizzaSteps(), 20, "path_to_margherita_pizza.jpg", "Italian"));
-        dishes.add(new Dish("Risotto al Funghi", "Creamy risotto with mushrooms", "Recipe 3", 25, "path_to_risotto_al_funghi.jpg", "Italian"));
-        dishes.add(new Dish("Osso Buco", "Braised veal shanks with gremolata", "Recipe 4", 40, "path_to_osso_buco.jpg", "Italian"));
-        dishes.add(new Dish("Tiramisu", "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone", "Recipe 5", 15, "path_to_tiramisu.jpg", "Italian"));
-        dishes.add(new Dish("Fettuccine Alfredo", "Pasta with creamy Alfredo sauce", "Recipe 6", 25, "path_to_fettuccine_alfredo.jpg", "Italian"));
-        dishes.add(new Dish("Caprese Salad", "Simple salad with tomatoes, mozzarella, and basil", "Recipe 7", 10, "path_to_caprese_salad.jpg", "Italian"));
-        dishes.add(new Dish("Gnocchi alla Sorrentina", "Potato dumplings with tomato sauce and mozzarella", "Recipe 8", 30, "path_to_gnocchi_alla_sorrentina.jpg", "Italian"));
-        dishes.add(new Dish("Bruschetta", "Toasted bread topped with tomatoes, garlic, and basil", "Recipe 9", 15, "path_to_bruschetta.jpg", "Italian"));
-        dishes.add(new Dish("Limoncello Tiramisu", "Tiramisu with a twist, infused with limoncello", "Recipe 10", 20, "path_to_limoncello_tiramisu.jpg", "Italian"));
+        dishes.add(new Dish("Risotto al Funghi", "Creamy risotto with mushrooms", Recipe.getRisottoAlFunghiSteps(), 25, "path_to_risotto_al_funghi.jpg", "Italian"));
+        dishes.add(new Dish("Osso Buco", "Braised veal shanks with gremolata", Recipe.getOssoBucoSteps(), 40, "path_to_osso_buco.jpg", "Italian"));
+        dishes.add(new Dish("Tiramisu", "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone", Recipe.getTiramisuSteps(), 15, "path_to_tiramisu.jpg", "Italian"));
+        dishes.add(new Dish("Fettuccine Alfredo", "Pasta with creamy Alfredo sauce", Recipe.getFettuccineAlfredoSteps(), 25, "path_to_fettuccine_alfredo.jpg", "Italian"));
+        dishes.add(new Dish("Caprese Salad", "Simple salad with tomatoes, mozzarella, and basil", Recipe.getCapreseSaladSteps(), 10, "path_to_caprese_salad.jpg", "Italian"));
+        dishes.add(new Dish("Gnocchi alla Sorrentina", "Potato dumplings with tomato sauce and mozzarella", Recipe.getGnocchiAllaSorrentinaSteps(), 30, "path_to_gnocchi_alla_sorrentina.jpg", "Italian"));
+        dishes.add(new Dish("Bruschetta", "Toasted bread topped with tomatoes, garlic, and basil", Recipe.getBruschettaSteps(), 15, "path_to_bruschetta.jpg", "Italian"));
+        dishes.add(new Dish("Limoncello Tiramisu", "Tiramisu with a twist, infused with limoncello", Recipe.getLimoncelloTiramisuSteps(), 20, "path_to_limoncello_tiramisu.jpg", "Italian"));
         
         // American
-        dishes.add(new Dish("Hamburger", "Classic American burger with a beef patty, lettuce, and tomato", "Recipe 11", 20, "path_to_hamburger.jpg", "American"));
-        dishes.add(new Dish("Hot Dog", "Traditional American hot dog with mustard and sauerkraut", "Recipe 12", 15, "path_to_hot_dog.jpg", "American"));
-        dishes.add(new Dish("Macaroni and Cheese", "Creamy macaroni pasta with melted cheese", "Recipe 13", 25, "path_to_macaroni_and_cheese.jpg", "American"));
-        dishes.add(new Dish("Chicken Pot Pie", "Savory pie filled with chicken, vegetables, and gravy", "Recipe 14", 45, "path_to_chicken_pot_pie.jpg", "American"));
-        dishes.add(new Dish("Buffalo Wings", "Spicy chicken wings with buffalo sauce", "Recipe 15", 30, "path_to_buffalo_wings.jpg", "American"));
-        dishes.add(new Dish("Clam Chowder", "Creamy soup with clams, potatoes, and bacon", "Recipe 16", 35, "path_to_clam_chowder.jpg", "American"));
-        dishes.add(new Dish("Barbecue Ribs", "Slow-cooked ribs with barbecue sauce", "Recipe 17", 60, "path_to_barbecue_ribs.jpg", "American"));
-        dishes.add(new Dish("Pancakes", "Fluffy pancakes served with syrup and butter", "Recipe 18", 15, "path_to_pancakes.jpg", "American"));
-        dishes.add(new Dish("Cheeseburger", "Burger with cheese, lettuce, and tomato", "Recipe 19", 25, "path_to_cheeseburger.jpg", "American"));
-        dishes.add(new Dish("Apple Pie", "Classic American pie with apple filling", "Recipe 20", 50, "path_to_apple_pie.jpg", "American"));
+        dishes.add(new Dish("Hamburger", "Classic American burger with a beef patty, lettuce, and tomato", Recipe.getBurgerSteps(), 20, "path_to_hamburger.jpg", "American"));
+        dishes.add(new Dish("Hot Dog", "Traditional American hot dog with mustard and sauerkraut", Recipe.getHotDogSteps(), 15, "path_to_hot_dog.jpg", "American"));
+        dishes.add(new Dish("Macaroni and Cheese", "Creamy macaroni pasta with melted cheese", Recipe.getMacAndCheeseSteps(), 25, "path_to_macaroni_and_cheese.jpg", "American"));
+        dishes.add(new Dish("Chicken Pot Pie", "Savory pie filled with chicken, vegetables, and gravy", Recipe.getChickenPotPieSteps(), 45, "path_to_chicken_pot_pie.jpg", "American"));
+        dishes.add(new Dish("Buffalo Wings", "Spicy chicken wings with buffalo sauce", Recipe.getBuffaloWingsSteps(), 30, "path_to_buffalo_wings.jpg", "American"));
+        dishes.add(new Dish("Clam Chowder", "Creamy soup with clams, potatoes, and bacon", Recipe.getClamChowderSteps(), 35, "path_to_clam_chowder.jpg", "American"));
+        dishes.add(new Dish("Barbecue Ribs", "Slow-cooked ribs with barbecue sauce", Recipe.getBarbecueRibsSteps(), 60, "path_to_barbecue_ribs.jpg", "American"));
+        dishes.add(new Dish("Pancakes", "Fluffy pancakes served with syrup and butter", Recipe.getPancakesSteps(), 15, "path_to_pancakes.jpg", "American"));
+        dishes.add(new Dish("Cheeseburger", "Burger with cheese, lettuce, and tomato", Recipe.getCheeseburgerSteps(), 25, "path_to_cheeseburger.jpg", "American"));
+        dishes.add(new Dish("Apple Pie", "Classic American pie with apple filling", Recipe.getApplePieSteps(), 50, "path_to_apple_pie.jpg", "American"));
         
         // French
-        dishes.add(new Dish("Coq au Vin", "Classic French dish of chicken braised with wine, mushrooms, and onions", "Recipe 21", 60, "path_to_coq_au_vin.jpg", "French"));
-        dishes.add(new Dish("Ratatouille", "Vegetable stew with eggplant, zucchini, and bell peppers", "Recipe 22", 40, "path_to_ratatouille.jpg", "French"));
-        dishes.add(new Dish("Croissant", "Flaky and buttery French pastry", "Recipe 23", 30, "path_to_croissant.jpg", "French"));
-        dishes.add(new Dish("Escargot", "Snails cooked in garlic, parsley, and butter", "Recipe 24", 20, "path_to_escargot.jpg", "French"));
-        dishes.add(new Dish("Quiche Lorraine", "Savory tart with bacon and cheese filling", "Recipe 25", 35, "path_to_quiche_lorraine.jpg", "French"));
-        dishes.add(new Dish("Bouillabaisse", "Fish stew with various Mediterranean fish, shellfish, and herbs", "Recipe 26", 50, "path_to_bouillabaisse.jpg", "French"));
-        dishes.add(new Dish("Crêpes", "Thin pancakes filled with sweet or savory ingredients", "Recipe 27", 25, "path_to_crepes.jpg", "French"));
-        dishes.add(new Dish("Cassoulet", "Slow-cooked casserole with meat and white beans", "Recipe 28", 75, "path_to_cassoulet.jpg", "French"));
-        dishes.add(new Dish("Salade Niçoise", "Salad with tuna, olives, and anchovies", "Recipe 29", 20, "path_to_salade_nicoise.jpg", "French"));
-        dishes.add(new Dish("Tarte Tatin", "Upside-down caramelized apple tart", "Recipe 30", 40, "path_to_tarte_tatin.jpg", "French"));
+        dishes.add(new Dish("Coq au Vin", "Classic French dish of chicken braised with wine, mushrooms, and onions", Recipe.getCoqAuVinSteps(), 60, "path_to_coq_au_vin.jpg", "French"));
+        dishes.add(new Dish("Ratatouille", "Vegetable stew with eggplant, zucchini, and bell peppers", Recipe.getRatatouilleSteps(), 40, "path_to_ratatouille.jpg", "French"));
+        dishes.add(new Dish("Croissant", "Flaky and buttery French pastry", Recipe.getCroissantSteps(), 30, "path_to_croissant.jpg", "French"));
+        dishes.add(new Dish("Escargot", "Snails cooked in garlic, parsley, and butter", Recipe.getEscargotSteps(), 20, "path_to_escargot.jpg", "French"));
+        dishes.add(new Dish("Quiche Lorraine", "Savory tart with bacon and cheese filling", Recipe.getQuicheLorraineSteps(), 35, "path_to_quiche_lorraine.jpg", "French"));
+        dishes.add(new Dish("Bouillabaisse", "Fish stew with various Mediterranean fish, shellfish, and herbs", Recipe.getBouillabaisseSteps(), 50, "path_to_bouillabaisse.jpg", "French"));
+        dishes.add(new Dish("Crêpes", "Thin pancakes filled with sweet or savory ingredients", Recipe.getCrepesSteps(), 25, "path_to_crepes.jpg", "French"));
+        dishes.add(new Dish("Cassoulet", "Slow-cooked casserole with meat and white beans", Recipe.getCassouletSteps(), 75, "path_to_cassoulet.jpg", "French"));
+        dishes.add(new Dish("Salade Niçoise", "Salad with tuna, olives, and anchovies", Recipe.getSaladeNicoiseSteps(), 20, "path_to_salade_nicoise.jpg", "French"));
+        dishes.add(new Dish("Tarte Tatin", "Upside-down caramelized apple tart", Recipe.getTarteTatinSteps(), 40, "path_to_tarte_tatin.jpg", "French"));
         
         // Korean
         dishes.add(new Dish("Bibimbap", "Mixed rice bowl with vegetables, meat, and a spicy sauce", "Recipe 31", 30, "path_to_bibimbap.jpg", "Korean"));
