@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Recipe {
+public class RecipeList {
 	;
 // Italian Recipes
 	static public List<String> getSpaghettiBologneseSteps() {
