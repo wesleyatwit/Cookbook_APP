@@ -45,28 +45,28 @@ public class DishProvider {
         dishes.add(new Dish("Tarte Tatin", "Upside-down caramelized apple tart", Recipe.getTarteTatinSteps(), 40, "path_to_tarte_tatin.jpg", "French"));
         
         // Korean
-        dishes.add(new Dish("Bibimbap", "Mixed rice bowl with vegetables, meat, and a spicy sauce", "Recipe 31", 30, "path_to_bibimbap.jpg", "Korean"));
-        dishes.add(new Dish("Kimchi Jjigae", "Kimchi stew with tofu, vegetables, and pork", "Recipe 32", 40, "path_to_kimchi_jjigae.jpg", "Korean"));
-        dishes.add(new Dish("Bulgogi", "Marinated and grilled beef slices", "Recipe 33", 25, "path_to_bulgogi.jpg", "Korean"));
-        dishes.add(new Dish("Japchae", "Stir-fried glass noodles with vegetables and beef", "Recipe 34", 35, "path_to_japchae.jpg", "Korean"));
-        dishes.add(new Dish("Sundubu Jjigae", "Soft tofu stew with vegetables and sometimes meat", "Recipe 35", 30, "path_to_sundubu_jjigae.jpg", "Korean"));
-        dishes.add(new Dish("Samgyeopsal", "Grilled pork belly served with dipping sauces", "Recipe 36", 20, "path_to_samgyeopsal.jpg", "Korean"));
-        dishes.add(new Dish("Dolsot Bibimbap", "Bibimbap served in a hot stone pot", "Recipe 37", 35, "path_to_dolsot_bibimbap.jpg", "Korean"));
-        dishes.add(new Dish("Kimchi Fried Rice", "Fried rice with kimchi and other ingredients", "Recipe 38", 25, "path_to_kimchi_fried_rice.jpg", "Korean"));
-        dishes.add(new Dish("Kimbap", "Seaweed rice rolls with vegetables and sometimes meat", "Recipe 39", 30, "path_to_kimbap.jpg", "Korean"));
-        dishes.add(new Dish("Haemul Pajeon", "Seafood and green onion pancake", "Recipe 40", 40, "path_to_haemul_pajeon.jpg", "Korean"));
+        dishes.add(new Dish("Bibimbap", "Mixed rice bowl with vegetables, meat, and a spicy sauce", Recipe.getBibimbapSteps(), 30, "path_to_bibimbap.jpg", "Korean"));
+        dishes.add(new Dish("Kimchi Jjigae", "Kimchi stew with tofu, vegetables, and pork", Recipe.getKimchiJjigaeSteps(), 40, "path_to_kimchi_jjigae.jpg", "Korean"));
+        dishes.add(new Dish("Bulgogi", "Marinated and grilled beef slices", Recipe.getBulgogiSteps(), 25, "path_to_bulgogi.jpg", "Korean"));
+        dishes.add(new Dish("Japchae", "Stir-fried glass noodles with vegetables and beef", Recipe.getJapchaeSteps(), 35, "path_to_japchae.jpg", "Korean"));
+        dishes.add(new Dish("Sundubu Jjigae", "Soft tofu stew with vegetables and sometimes meat", Recipe.getSundubuJjigaeSteps(), 30, "path_to_sundubu_jjigae.jpg", "Korean"));
+        dishes.add(new Dish("Samgyeopsal", "Grilled pork belly served with dipping sauces", Recipe.getSamgyeopsalSteps(), 20, "path_to_samgyeopsal.jpg", "Korean"));
+        dishes.add(new Dish("Dolsot Bibimbap", "Bibimbap served in a hot stone pot", Recipe.getDolsotBibimbapSteps(), 35, "path_to_dolsot_bibimbap.jpg", "Korean"));
+        dishes.add(new Dish("Kimchi Fried Rice", "Fried rice with kimchi and other ingredients", Recipe.getKimchiFriedRiceSteps(), 25, "path_to_kimchi_fried_rice.jpg", "Korean"));
+        dishes.add(new Dish("Kimbap", "Seaweed rice rolls with vegetables and sometimes meat", Recipe.getKimbapSteps(), 30, "path_to_kimbap.jpg", "Korean"));
+        dishes.add(new Dish("Haemul Pajeon", "Seafood and green onion pancake", Recipe.getHaemulPajeonSteps(), 40, "path_to_haemul_pajeon.jpg", "Korean"));
         
         // Chinese
-        dishes.add(new Dish("Sweet and Sour Chicken", "Crispy chicken with sweet and sour sauce", "Recipe 41", 30, "path_to_sweet_and_sour_chicken.jpg", "Chinese"));
-        dishes.add(new Dish("Kung Pao Chicken", "Spicy chicken stir-fry with peanuts and vegetables", "Recipe 42", 25, "path_to_kung_pao_chicken.jpg", "Chinese"));
-        dishes.add(new Dish("Dim Sum", "Assortment of bite-sized dishes, often served in steamer baskets", "Recipe 43", 40, "path_to_dim_sum.jpg", "Chinese"));
-        dishes.add(new Dish("Peking Duck", "Roasted duck served with thin pancakes and hoisin sauce", "Recipe 44", 60, "path_to_peking_duck.jpg", "Chinese"));
-        dishes.add(new Dish("Mapo Tofu", "Spicy tofu dish with minced meat and fermented black beans", "Recipe 45", 30, "path_to_mapo_tofu.jpg", "Chinese"));
-        dishes.add(new Dish("Chow Mein", "Stir-fried noodles with vegetables and sometimes meat", "Recipe 46", 35, "path_to_chow_mein.jpg", "Chinese"));
-        dishes.add(new Dish("Hot Pot", "Cooking pot at the dining table with broth, meats, and vegetables", "Recipe 47", 45, "path_to_hot_pot.jpg", "Chinese"));
-        dishes.add(new Dish("Spring Rolls", "Crispy rolls filled with vegetables, meat, and sometimes shrimp", "Recipe 48", 30, "path_to_spring_rolls.jpg", "Chinese"));
-        dishes.add(new Dish("General Tso's Chicken", "Crispy chicken in a sweet and spicy sauce", "Recipe 49", 25, "path_to_general_tsos_chicken.jpg", "Chinese"));
-        dishes.add(new Dish("Egg Fried Rice", "Fried rice with scrambled eggs and vegetables", "Recipe 50", 20, "path_to_egg_fried_rice.jpg", "Chinese"));
+        dishes.add(new Dish("Sweet and Sour Chicken", "Crispy chicken with sweet and sour sauce", Recipe.getSweetAndSourChickenSteps(), 30, "path_to_sweet_and_sour_chicken.jpg", "Chinese"));
+        dishes.add(new Dish("Kung Pao Chicken", "Spicy chicken stir-fry with peanuts and vegetables", Recipe.getKungPaoChickenSteps(), 25, "path_to_kung_pao_chicken.jpg", "Chinese"));
+        dishes.add(new Dish("Dim Sum", "Assortment of bite-sized dishes, often served in steamer baskets", Recipe.getDimSumSteps(), 40, "path_to_dim_sum.jpg", "Chinese"));
+        dishes.add(new Dish("Peking Duck", "Roasted duck served with thin pancakes and hoisin sauce", Recipe.getPekingDuckSteps(), 60, "path_to_peking_duck.jpg", "Chinese"));
+        dishes.add(new Dish("Mapo Tofu", "Spicy tofu dish with minced meat and fermented black beans", Recipe.getMapoTofuSteps(), 30, "path_to_mapo_tofu.jpg", "Chinese"));
+        dishes.add(new Dish("Chow Mein", "Stir-fried noodles with vegetables and sometimes meat", Recipe.getChowMeinSteps(), 35, "path_to_chow_mein.jpg", "Chinese"));
+        dishes.add(new Dish("Hot Pot", "Cooking pot at the dining table with broth, meats, and vegetables", Recipe.getHotPotSteps(), 45, "path_to_hot_pot.jpg", "Chinese"));
+        dishes.add(new Dish("Spring Rolls", "Crispy rolls filled with vegetables, meat, and sometimes shrimp", Recipe.getSpringRollsSteps(), 30, "path_to_spring_rolls.jpg", "Chinese"));
+        dishes.add(new Dish("General Tso's Chicken", "Crispy chicken in a sweet and spicy sauce", Recipe.getGeneralTsosChickenSteps(), 25, "path_to_general_tsos_chicken.jpg", "Chinese"));
+        dishes.add(new Dish("Egg Fried Rice", "Fried rice with scrambled eggs and vegetables", Recipe.getEggFriedRiceSteps(), 20, "path_to_egg_fried_rice.jpg", "Chinese"));
         
         // Creole
         dishes.add(new Dish("Gumbo", "Stew with a strong-flavored stock, meat or shellfish, and vegetables", "Recipe 51", 45, "path_to_gumbo.jpg", "Creole"));
