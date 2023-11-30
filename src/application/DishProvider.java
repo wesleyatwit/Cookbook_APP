@@ -70,7 +70,7 @@ public class DishProvider {
         
         // Creole
         dishes.add(new Dish("Gumbo", "Stew with a strong-flavored stock, meat or shellfish, and vegetables", Recipe.getGumboSteps(), 45, "path_to_gumbo.jpg", "Creole"));
-        dishes.add(new Dish("Jambalaya", "One-pot rice dish with meat, vegetables, and spices", Recipe.getJambalayaSteps()a, 35, "path_to_jambalaya.jpg", "Creole"));
+        dishes.add(new Dish("Jambalaya", "One-pot rice dish with meat, vegetables, and spices", Recipe.getJambalayaSteps(), 35, "path_to_jambalaya.jpg", "Creole"));
         dishes.add(new Dish("Shrimp and Grits", "Sauteed shrimp served over creamy grits", Recipe.getShrimpAndGritsSteps(), 30, "path_to_shrimp_and_grits.jpg", "Creole"));
         dishes.add(new Dish("Étouffée", "Stew made with shellfish like crawfish, served over rice", Recipe.getEtouffeeSteps(), 40, "path_to_etouffee.jpg", "Creole"));
         dishes.add(new Dish("Red Beans and Rice", "Stewed red beans served with rice", Recipe.getRedBeansAndRiceSteps(), 40, "path_to_red_beans_and_rice.jpg", "Creole"));
