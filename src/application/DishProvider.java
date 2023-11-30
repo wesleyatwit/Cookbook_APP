@@ -93,40 +93,40 @@ public class DishProvider {
         dishes.add(new Dish("Cajun Chicken Jambalaya", "Spicy one-pot rice dish with chicken and sausage", "Recipe 70", 35, "path_to_cajun_chicken_jambalaya.jpg", "Cajun"));
         
         // Mexican
-        dishes.add(new Dish("Tacos al Pastor", "Tacos with marinated and spit-roasted pork", "Recipe 71", 25, "path_to_tacos_al_pastor.jpg", "Mexican"));
-        dishes.add(new Dish("Guacamole", "Avocado-based dip with tomatoes, onions, and cilantro", "Recipe 72", 15, "path_to_guacamole.jpg", "Mexican"));
-        dishes.add(new Dish("Enchiladas", "Tortillas rolled around a filling, topped with chili sauce and cheese", "Recipe 73", 30, "path_to_enchiladas.jpg", "Mexican"));
-        dishes.add(new Dish("Chiles Rellenos", "Stuffed peppers, usually with cheese or meat, and fried", "Recipe 74", 40, "path_to_chiles_rellenos.jpg", "Mexican"));
-        dishes.add(new Dish("Mole Poblano", "Rich sauce with chocolate, chili peppers, and other spices", "Recipe 75", 50, "path_to_mole_poblano.jpg", "Mexican"));
-        dishes.add(new Dish("Tamales", "Steamed parcels of masa dough with various fillings", "Recipe 76", 45, "path_to_tamales.jpg", "Mexican"));
-        dishes.add(new Dish("Quesadillas", "Tortillas filled with cheese and other ingredients, folded and grilled", "Recipe 77", 20, "path_to_quesadillas.jpg", "Mexican"));
-        dishes.add(new Dish("Pozole", "Soup made with hominy, meat, and chili, typically garnished with radishes and cabbage", "Recipe 78", 60, "path_to_pozole.jpg", "Mexican"));
-        dishes.add(new Dish("Ceviche", "Seafood dish typically made from fresh raw fish cured in citrus juices", "Recipe 79", 15, "path_to_ceviche.jpg", "Mexican"));
-        dishes.add(new Dish("Churros", "Fried dough pastries, often dusted with sugar and cinnamon", "Recipe 80", 25, "path_to_churros.jpg", "Mexican"));
+        dishes.add(new Dish("Tacos al Pastor", "Tacos with marinated and spit-roasted pork", Recipe.getTacosAlPastorSteps(), 25, "path_to_tacos_al_pastor.jpg", "Mexican"));
+        dishes.add(new Dish("Guacamole", "Avocado-based dip with tomatoes, onions, and cilantro", Recipe.getGuacamoleSteps(), 15, "path_to_guacamole.jpg", "Mexican"));
+        dishes.add(new Dish("Enchiladas", "Tortillas rolled around a filling, topped with chili sauce and cheese", Recipe.getEnchiladasSteps(), 30, "path_to_enchiladas.jpg", "Mexican"));
+        dishes.add(new Dish("Chiles Rellenos", "Stuffed peppers, usually with cheese or meat, and fried", Recipe.getChilesRellenosSteps(), 40, "path_to_chiles_rellenos.jpg", "Mexican"));
+        dishes.add(new Dish("Mole Poblano", "Rich sauce with chocolate, chili peppers, and other spices", Recipe.getMolePoblanoSteps(), 50, "path_to_mole_poblano.jpg", "Mexican"));
+        dishes.add(new Dish("Tamales", "Steamed parcels of masa dough with various fillings", Recipe.getTamalesSteps(), 45, "path_to_tamales.jpg", "Mexican"));
+        dishes.add(new Dish("Quesadillas", "Tortillas filled with cheese and other ingredients, folded and grilled", Recipe.getQuesadillasSteps(), 20, "path_to_quesadillas.jpg", "Mexican"));
+        dishes.add(new Dish("Pozole", "Soup made with hominy, meat, and chili, typically garnished with radishes and cabbage", Recipe.getPozoleSteps(), 60, "path_to_pozole.jpg", "Mexican"));
+        dishes.add(new Dish("Ceviche", "Seafood dish typically made from fresh raw fish cured in citrus juices",Recipe.getCevicheSteps(), 15, "path_to_ceviche.jpg", "Mexican"));
+        dishes.add(new Dish("Churros", "Fried dough pastries, often dusted with sugar and cinnamon", Recipe.getChurrosSteps(), 25, "path_to_churros.jpg", "Mexican"));
         
         // Irish
-        dishes.add(new Dish("Irish Stew", "Stew made with lamb or mutton, potatoes, carrots, and onions", "Recipe 81", 60, "path_to_irish_stew.jpg", "Irish"));
-        dishes.add(new Dish("Colcannon", "Mashed potatoes with cabbage or kale and butter", "Recipe 82", 30, "path_to_colcannon.jpg", "Irish"));
-        dishes.add(new Dish("Shepherd's Pie", "Ground meat topped with mashed potatoes and baked", "Recipe 83", 45, "path_to_shepherds_pie.jpg", "Irish"));
-        dishes.add(new Dish("Boxty", "Irish potato pancake made with grated potatoes and flour", "Recipe 84", 25, "path_to_boxty.jpg", "Irish"));
-        dishes.add(new Dish("Coddle", "Stew made with sausages, bacon, and vegetables", "Recipe 85", 35, "path_to_coddle.jpg", "Irish"));
-        dishes.add(new Dish("Irish Soda Bread", "Quick bread made with baking soda, buttermilk, and flour", "Recipe 86", 20, "path_to_irish_soda_bread.jpg", "Irish"));
-        dishes.add(new Dish("Dublin Coddle", "Traditional Irish dish with sausages, bacon, and potatoes", "Recipe 87", 40, "path_to_dublin_coddle.jpg", "Irish"));
-        dishes.add(new Dish("Corned Beef and Cabbage", "Beef brisket with cabbage, carrots, and potatoes", "Recipe 88", 50, "path_to_corned_beef_and_cabbage.jpg", "Irish"));
-        dishes.add(new Dish("Irish Coffee", "Coffee with Irish whiskey and cream", "Recipe 89", 10, "path_to_irish_coffee.jpg", "Irish"));
-        dishes.add(new Dish("Irish Apple Cake", "Apple cake with cinnamon and sugar topping", "Recipe 90", 45, "path_to_irish_apple_cake.jpg", "Irish"));
+        dishes.add(new Dish("Irish Stew", "Stew made with lamb or mutton, potatoes, carrots, and onions", Recipe.getIrishStewSteps(), 60, "path_to_irish_stew.jpg", "Irish"));
+        dishes.add(new Dish("Colcannon", "Mashed potatoes with cabbage or kale and butter", Recipe.getColcannonSteps(), 30, "path_to_colcannon.jpg", "Irish"));
+        dishes.add(new Dish("Shepherd's Pie", "Ground meat topped with mashed potatoes and baked", Recipe.getShepherdsPieSteps()h, 45, "path_to_shepherds_pie.jpg", "Irish"));
+        dishes.add(new Dish("Boxty", "Irish potato pancake made with grated potatoes and flour", Recipe.getBoxtySteps(), 25, "path_to_boxty.jpg", "Irish"));
+        dishes.add(new Dish("Coddle", "Stew made with sausages, bacon, and vegetables", Recipe.getCoddleSteps(), 35, "path_to_coddle.jpg", "Irish"));
+        dishes.add(new Dish("Irish Soda Bread", "Quick bread made with baking soda, buttermilk, and flour", Recipe.getIrishSodaBreadSteps(), 20, "path_to_irish_soda_bread.jpg", "Irish"));
+        dishes.add(new Dish("Dublin Coddle", "Traditional Irish dish with sausages, bacon, and potatoes", Recipe.getDublinCoddleSteps(), 40, "path_to_dublin_coddle.jpg", "Irish"));
+        dishes.add(new Dish("Corned Beef and Cabbage", "Beef brisket with cabbage, carrots, and potatoes", Recipe.getIrishCoffeeSteps(), 50, "path_to_corned_beef_and_cabbage.jpg", "Irish"));
+        dishes.add(new Dish("Irish Coffee", "Coffee with Irish whiskey and cream", Recipe.getIrishCoffeeSteps(), 10, "path_to_irish_coffee.jpg", "Irish"));
+        dishes.add(new Dish("Irish Apple Cake", "Apple cake with cinnamon and sugar topping",Recipe.getIrishAppleCakeSteps(), 45, "path_to_irish_apple_cake.jpg", "Irish"));
         
         // English
-        dishes.add(new Dish("Fish and Chips", "Battered and fried fish served with thick-cut fries", "Recipe 91", 30, "path_to_fish_and_chips.jpg", "English"));
-        dishes.add(new Dish("Shepherd's Pie", "Minced meat topped with mashed potatoes and baked", "Recipe 92", 45, "path_to_shepherds_pie_english.jpg", "English"));
-        dishes.add(new Dish("Full English Breakfast", "Classic breakfast with eggs, bacon, sausage, beans, and more", "Recipe 93", 25, "path_to_full_english_breakfast.jpg", "English"));
-        dishes.add(new Dish("Beef Wellington", "Beef fillet coated with pâté and wrapped in puff pastry", "Recipe 94", 60, "path_to_beef_wellington.jpg", "English"));
-        dishes.add(new Dish("Ploughman's Lunch", "Cold meal with cheese, bread, pickles, and more", "Recipe 95", 15, "path_to_ploughmans_lunch.jpg", "English"));
-        dishes.add(new Dish("Bangers and Mash", "Sausages served with mashed potatoes and onion gravy", "Recipe 96", 35, "path_to_bangers_and_mash.jpg", "English"));
-        dishes.add(new Dish("Cornish Pasty", "Pastry filled with meat, potatoes, and vegetables", "Recipe 97", 40, "path_to_cornish_pasty.jpg", "English"));
-        dishes.add(new Dish("Steak and Kidney Pie", "Pie filled with diced beef, kidney, and gravy", "Recipe 98", 50, "path_to_steak_and_kidney_pie.jpg", "English"));
-        dishes.add(new Dish("Eton Mess", "Dessert with strawberries, meringue, and whipped cream", "Recipe 99", 20, "path_to_eton_mess.jpg", "English"));
-        dishes.add(new Dish("Tea and Scones", "Traditional afternoon tea with scones and clotted cream", "Recipe 100", 15, "path_to_tea_and_scones.jpg", "English"));
+        dishes.add(new Dish("Fish and Chips", "Battered and fried fish served with thick-cut fries", Recipe.getFishAndChipsSteps(), 30, "path_to_fish_and_chips.jpg", "English"));
+        dishes.add(new Dish("Shepherd's Pie", "Minced meat topped with mashed potatoes and baked", Recipe.getShepherdsPieSteps(), 45, "path_to_shepherds_pie_english.jpg", "English"));
+        dishes.add(new Dish("Full English Breakfast", "Classic breakfast with eggs, bacon, sausage, beans, and more", Recipe.getFullEnglishBreakfastSteps(), 25, "path_to_full_english_breakfast.jpg", "English"));
+        dishes.add(new Dish("Beef Wellington", "Beef fillet coated with pâté and wrapped in puff pastry", Recipe.getBeefWellingtonSteps(), 60, "path_to_beef_wellington.jpg", "English"));
+        dishes.add(new Dish("Ploughman's Lunch", "Cold meal with cheese, bread, pickles, and more", Recipe.getPloughmansLunchSteps(), 15, "path_to_ploughmans_lunch.jpg", "English"));
+        dishes.add(new Dish("Bangers and Mash", "Sausages served with mashed potatoes and onion gravy", Recipe.getBangersAndMashSteps(), 35, "path_to_bangers_and_mash.jpg", "English"));
+        dishes.add(new Dish("Cornish Pasty", "Pastry filled with meat, potatoes, and vegetables", Recipe.getCornishPastySteps(), 40, "path_to_cornish_pasty.jpg", "English"));
+        dishes.add(new Dish("Steak and Kidney Pie", "Pie filled with diced beef, kidney, and gravy", Recipe.getSteakAndKidneyPieSteps(), 50, "path_to_steak_and_kidney_pie.jpg", "English"));
+        dishes.add(new Dish("Eton Mess", "Dessert with strawberries, meringue, and whipped cream", Recipe.getEtonMessSteps(), 20, "path_to_eton_mess.jpg", "English"));
+        dishes.add(new Dish("Tea and Scones", "Traditional afternoon tea with scones and clotted cream", Recipe.getTeaAndSconesSteps(), 15, "path_to_tea_and_scones.jpg", "English"));
         
         return dishes;
     }
