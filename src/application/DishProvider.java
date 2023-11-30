@@ -107,7 +107,7 @@ public class DishProvider {
         // Irish
         dishes.add(new Dish("Irish Stew", "Stew made with lamb or mutton, potatoes, carrots, and onions", Recipe.getIrishStewSteps(), 60, "path_to_irish_stew.jpg", "Irish"));
         dishes.add(new Dish("Colcannon", "Mashed potatoes with cabbage or kale and butter", Recipe.getColcannonSteps(), 30, "path_to_colcannon.jpg", "Irish"));
-        dishes.add(new Dish("Shepherd's Pie", "Ground meat topped with mashed potatoes and baked", Recipe.getShepherdsPieSteps()h, 45, "path_to_shepherds_pie.jpg", "Irish"));
+        dishes.add(new Dish("Shepherd's Pie", "Ground meat topped with mashed potatoes and baked", Recipe.getShepherdsPieSteps(), 45, "path_to_shepherds_pie.jpg", "Irish"));
         dishes.add(new Dish("Boxty", "Irish potato pancake made with grated potatoes and flour", Recipe.getBoxtySteps(), 25, "path_to_boxty.jpg", "Irish"));
         dishes.add(new Dish("Coddle", "Stew made with sausages, bacon, and vegetables", Recipe.getCoddleSteps(), 35, "path_to_coddle.jpg", "Irish"));
         dishes.add(new Dish("Irish Soda Bread", "Quick bread made with baking soda, buttermilk, and flour", Recipe.getIrishSodaBreadSteps(), 20, "path_to_irish_soda_bread.jpg", "Irish"));
