@@ -23,7 +23,7 @@ public class CookbookApp extends Application {
     private Button dislikeButton;
 
     public static void main(String[] args) {
-        launch(args);
+        System.out.print(RecipeList.getAndouilleSausageGumboSteps());
     }
 
     @Override
