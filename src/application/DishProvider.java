@@ -9,40 +9,40 @@ public class DishProvider {
     	List<Dish> dishes = new ArrayList<>();
 
         // Italian
-        dishes.add(new Dish("Spaghetti Bolognese", "Classic Italian pasta dish with meat sauce", RecipeList.getSpaghettiBologneseSteps(), 30, "path_to_spaghetti_bolognese.jpg", "Italian"));
-        dishes.add(new Dish("Margherita Pizza", "Traditional pizza with tomato, mozzarella, and basil", RecipeList.getMargheritaPizzaSteps(), 20, "path_to_margherita_pizza.jpg", "Italian"));
-        dishes.add(new Dish("Risotto al Funghi", "Creamy risotto with mushrooms", RecipeList.getRisottoAlFunghiSteps(), 25, "path_to_risotto_al_funghi.jpg", "Italian"));
-        dishes.add(new Dish("Osso Buco", "Braised veal shanks with gremolata", RecipeList.getOssoBucoSteps(), 40, "path_to_osso_buco.jpg", "Italian"));
+        dishes.add(new Dish("Spaghetti Bolognese", "Classic Italian pasta dish with meat sauce", RecipeList.getSpaghettiBologneseSteps(), 30, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Margherita Pizza", "Traditional pizza with tomato, mozzarella, and basil", RecipeList.getMargheritaPizzaSteps(), 20, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Risotto al Funghi", "Creamy risotto with mushrooms", RecipeList.getRisottoAlFunghiSteps(), 25, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Osso Buco", "Braised veal shanks with gremolata", RecipeList.getOssoBucoSteps(), 40, "File:src/application/Italian_Flag.png", "Italian"));
         dishes.add(new Dish("Tiramisu", "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone", RecipeList.getTiramisuSteps(), 15, "path_to_tiramisu.jpg", "Italian"));
-        dishes.add(new Dish("Fettuccine Alfredo", "Pasta with creamy Alfredo sauce", RecipeList.getFettuccineAlfredoSteps(), 25, "path_to_fettuccine_alfredo.jpg", "Italian"));
-        dishes.add(new Dish("Caprese Salad", "Simple salad with tomatoes, mozzarella, and basil", RecipeList.getCapreseSaladSteps(), 10, "path_to_caprese_salad.jpg", "Italian"));
-        dishes.add(new Dish("Gnocchi alla Sorrentina", "Potato dumplings with tomato sauce and mozzarella", RecipeList.getGnocchiAllaSorrentinaSteps(), 30, "path_to_gnocchi_alla_sorrentina.jpg", "Italian"));
-        dishes.add(new Dish("Bruschetta", "Toasted bread topped with tomatoes, garlic, and basil", RecipeList.getBruschettaSteps(), 15, "path_to_bruschetta.jpg", "Italian"));
-        dishes.add(new Dish("Limoncello Tiramisu", "Tiramisu with a twist, infused with limoncello", RecipeList.getLimoncelloTiramisuSteps(), 20, "path_to_limoncello_tiramisu.jpg", "Italian"));
+        dishes.add(new Dish("Fettuccine Alfredo", "Pasta with creamy Alfredo sauce", RecipeList.getFettuccineAlfredoSteps(), 25, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Caprese Salad", "Simple salad with tomatoes, mozzarella, and basil", RecipeList.getCapreseSaladSteps(), 10, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Gnocchi alla Sorrentina", "Potato dumplings with tomato sauce and mozzarella", RecipeList.getGnocchiAllaSorrentinaSteps(), 30, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Bruschetta", "Toasted bread topped with tomatoes, garlic, and basil", RecipeList.getBruschettaSteps(), 15, "File:src/application/Italian_Flag.png", "Italian"));
+        dishes.add(new Dish("Limoncello Tiramisu", "Tiramisu with a twist, infused with limoncello", RecipeList.getLimoncelloTiramisuSteps(), 20, "File:src/application/Italian_Flag.png", "Italian"));
         
         // American
-        dishes.add(new Dish("Hamburger", "Classic American burger with a beef patty, lettuce, and tomato", RecipeList.getBurgerSteps(), 20, "path_to_hamburger.jpg", "American"));
-        dishes.add(new Dish("Hot Dog", "Traditional American hot dog with mustard and sauerkraut", RecipeList.getHotDogSteps(), 15, "path_to_hot_dog.jpg", "American"));
-        dishes.add(new Dish("Macaroni and Cheese", "Creamy macaroni pasta with melted cheese", RecipeList.getMacAndCheeseSteps(), 25, "path_to_macaroni_and_cheese.jpg", "American"));
-        dishes.add(new Dish("Chicken Pot Pie", "Savory pie filled with chicken, vegetables, and gravy", RecipeList.getChickenPotPieSteps(), 45, "path_to_chicken_pot_pie.jpg", "American"));
-        dishes.add(new Dish("Buffalo Wings", "Spicy chicken wings with buffalo sauce", RecipeList.getBuffaloWingsSteps(), 30, "path_to_buffalo_wings.jpg", "American"));
-        dishes.add(new Dish("Clam Chowder", "Creamy soup with clams, potatoes, and bacon", RecipeList.getClamChowderSteps(), 35, "path_to_clam_chowder.jpg", "American"));
-        dishes.add(new Dish("Barbecue Ribs", "Slow-cooked ribs with barbecue sauce", RecipeList.getBarbecueRibsSteps(), 60, "path_to_barbecue_ribs.jpg", "American"));
-        dishes.add(new Dish("Pancakes", "Fluffy pancakes served with syrup and butter", RecipeList.getPancakesSteps(), 15, "path_to_pancakes.jpg", "American"));
-        dishes.add(new Dish("Cheeseburger", "Burger with cheese, lettuce, and tomato", RecipeList.getCheeseburgerSteps(), 25, "path_to_cheeseburger.jpg", "American"));
-        dishes.add(new Dish("Apple Pie", "Classic American pie with apple filling", RecipeList.getApplePieSteps(), 50, "path_to_apple_pie.jpg", "American"));
+        dishes.add(new Dish("Hamburger", "Classic American burger with a beef patty, lettuce, and tomato", RecipeList.getBurgerSteps(), 20, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Hot Dog", "Traditional American hot dog with mustard and sauerkraut", RecipeList.getHotDogSteps(), 15, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Macaroni and Cheese", "Creamy macaroni pasta with melted cheese", RecipeList.getMacAndCheeseSteps(), 25, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Chicken Pot Pie", "Savory pie filled with chicken, vegetables, and gravy", RecipeList.getChickenPotPieSteps(), 45, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Buffalo Wings", "Spicy chicken wings with buffalo sauce", RecipeList.getBuffaloWingsSteps(), 30, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Clam Chowder", "Creamy soup with clams, potatoes, and bacon", RecipeList.getClamChowderSteps(), 35, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Barbecue Ribs", "Slow-cooked ribs with barbecue sauce", RecipeList.getBarbecueRibsSteps(), 60, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Pancakes", "Fluffy pancakes served with syrup and butter", RecipeList.getPancakesSteps(), 15, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Cheeseburger", "Burger with cheese, lettuce, and tomato", RecipeList.getCheeseburgerSteps(), 25, "File:src/application/American_Flag.png", "American"));
+        dishes.add(new Dish("Apple Pie", "Classic American pie with apple filling", RecipeList.getApplePieSteps(), 50, "File:src/application/American_Flag.png", "American"));
         
         // French
-        dishes.add(new Dish("Coq au Vin", "Classic French dish of chicken braised with wine, mushrooms, and onions", RecipeList.getCoqAuVinSteps(), 60, "path_to_coq_au_vin.jpg", "French"));
-        dishes.add(new Dish("Ratatouille", "Vegetable stew with eggplant, zucchini, and bell peppers", RecipeList.getRatatouilleSteps(), 40, "path_to_ratatouille.jpg", "French"));
-        dishes.add(new Dish("Croissant", "Flaky and buttery French pastry", RecipeList.getCroissantSteps(), 30, "path_to_croissant.jpg", "French"));
-        dishes.add(new Dish("Escargot", "Snails cooked in garlic, parsley, and butter", RecipeList.getEscargotSteps(), 20, "path_to_escargot.jpg", "French"));
-        dishes.add(new Dish("Quiche Lorraine", "Savory tart with bacon and cheese filling", RecipeList.getQuicheLorraineSteps(), 35, "path_to_quiche_lorraine.jpg", "French"));
-        dishes.add(new Dish("Bouillabaisse", "Fish stew with various Mediterranean fish, shellfish, and herbs", RecipeList.getBouillabaisseSteps(), 50, "path_to_bouillabaisse.jpg", "French"));
-        dishes.add(new Dish("Crêpes", "Thin pancakes filled with sweet or savory ingredients", RecipeList.getCrepesSteps(), 25, "path_to_crepes.jpg", "French"));
-        dishes.add(new Dish("Cassoulet", "Slow-cooked casserole with meat and white beans", RecipeList.getCassouletSteps(), 75, "path_to_cassoulet.jpg", "French"));
-        dishes.add(new Dish("Salade Niçoise", "Salad with tuna, olives, and anchovies", RecipeList.getSaladeNicoiseSteps(), 20, "path_to_salade_nicoise.jpg", "French"));
-        dishes.add(new Dish("Tarte Tatin", "Upside-down caramelized apple tart", RecipeList.getTarteTatinSteps(), 40, "path_to_tarte_tatin.jpg", "French"));
+        dishes.add(new Dish("Coq au Vin", "Classic French dish of chicken braised with wine, mushrooms, and onions", RecipeList.getCoqAuVinSteps(), 60, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Ratatouille", "Vegetable stew with eggplant, zucchini, and bell peppers", RecipeList.getRatatouilleSteps(), 40, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Croissant", "Flaky and buttery French pastry", RecipeList.getCroissantSteps(), 30, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Escargot", "Snails cooked in garlic, parsley, and butter", RecipeList.getEscargotSteps(), 20, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Quiche Lorraine", "Savory tart with bacon and cheese filling", RecipeList.getQuicheLorraineSteps(), 35, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Bouillabaisse", "Fish stew with various Mediterranean fish, shellfish, and herbs", RecipeList.getBouillabaisseSteps(), 50, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Crêpes", "Thin pancakes filled with sweet or savory ingredients", RecipeList.getCrepesSteps(), 25, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Cassoulet", "Slow-cooked casserole with meat and white beans", RecipeList.getCassouletSteps(), 75, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Salade Niçoise", "Salad with tuna, olives, and anchovies", RecipeList.getSaladeNicoiseSteps(), 20, "File:src/application/French_Flag.png", "French"));
+        dishes.add(new Dish("Tarte Tatin", "Upside-down caramelized apple tart", RecipeList.getTarteTatinSteps(), 40, "File:src/application/French_Flag.png", "French"));
         
         // Korean
         dishes.add(new Dish("Bibimbap", "Mixed rice bowl with vegetables, meat, and a spicy sauce", RecipeList.getBibimbapSteps(), 30, "path_to_bibimbap.jpg", "Korean"));

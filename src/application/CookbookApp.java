@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -22,8 +23,10 @@ public class CookbookApp extends Application {
     private Button likeButton;
     private Button dislikeButton;
 
+    private double xInitial;
+
     public static void main(String[] args) {
-        
+        launch(args);
     }
 
     @Override
@@ -36,6 +39,10 @@ public class CookbookApp extends Application {
         dishImageView = new ImageView();
         likeButton = new Button("Like");
         dislikeButton = new Button("Dislike");
+
+        // Set up event handlers for mouse drag events
+        dishImageView.setOnMousePressed(this::handleMousePressed);
+        dishImageView.setOnMouseDragged(this::handleMouseDragged);
 
         likeButton.setOnAction(e -> handleSwipe(true));
         dislikeButton.setOnAction(e -> handleSwipe(false));
@@ -53,8 +60,8 @@ public class CookbookApp extends Application {
 
     private void showRandomDish() {
         Random random = new Random();
-        int index = random.nextInt(dishes.size());
-        Dish currentDish = dishes.get(index);
+        int randomIndex = random.nextInt(dishes.size());
+        Dish currentDish = dishes.get(randomIndex);
 
         Image image = new Image(currentDish.getImagePath());
         dishImageView.setImage(image);
@@ -79,5 +86,26 @@ public class CookbookApp extends Application {
         } else {
             showRandomDish();
         }
+    }
+
+    private void handleMousePressed(MouseEvent event) {
+        xInitial = event.getSceneX();
+    }
+
+    private void handleMouseDragged(MouseEvent event) {
+        double xFinal = event.getSceneX();
+
+        // Determine the swipe direction based on the change in X position
+        double deltaX = xFinal - xInitial;
+        if (deltaX > 30) {
+            // Right swipe, consider it as "Like"
+            handleSwipe(true);
+        } else if (deltaX < -30) {
+            // Left swipe, consider it as "Dislike"
+            handleSwipe(false);
+        }
+
+        // Reset initial X position for the next drag event
+        xInitial = xFinal;
     }
 }
