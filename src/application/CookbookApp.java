@@ -98,9 +98,6 @@ public class CookbookApp extends Application {
 			dishInfoText.setText("Food: " + currentDish.getName() + "\nOrigin: " + currentDish.getCuisineType()
 					+ "\nDescription: " + currentDish.getDescription() + "\nCooktime: " + currentDish.getCookTime()
 					+ " mins" + "\nRecipe:\n" + currentDish.getRecipe());
-
-			// Clear any previous liked or disliked information
-			dishInfoText.setText(dishInfoText.getText() + "\n\n");
 		}
 	}
 
