@@ -84,7 +84,7 @@ public class CookbookApp extends Application {
         Scene scene = new Scene(root, 400, 600);
 
         // Set up the primary stage
-        primaryStage.setTitle("Flavor Flicker");
+        primaryStage.setTitle("Flavor");
         primaryStage.setScene(scene);
         primaryStage.show();
 
