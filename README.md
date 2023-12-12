@@ -18,4 +18,4 @@ To run Flavor Flicker locally, follow these steps:
 
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/flavor-flicker.git
+   git clone https://github.com/wesleyatwit/Cookbook_APP/tree/main
