@@ -19,7 +19,7 @@ public class DishProvider {
 				"File:src/application/Italian_Flag.png", "Italian"));
 		dishes.add(
 				new Dish("Tiramisu", "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone",
-						RecipeList.getTiramisuSteps(), 15, "path_to_tiramisu.jpg", "Italian"));
+						RecipeList.getTiramisuSteps(), 15, "File:src/application/Italian_Flag.png", "Italian"));
 		dishes.add(new Dish("Fettuccine Alfredo", "Pasta with creamy Alfredo sauce",
 				RecipeList.getFettuccineAlfredoSteps(), 25, "File:src/application/Italian_Flag.png", "Italian"));
 		dishes.add(new Dish("Caprese Salad", "Simple salad with tomatoes, mozzarella, and basil",
@@ -85,7 +85,7 @@ public class DishProvider {
 		dishes.add(new Dish("Japchae", "Stir-fried glass noodles with vegetables and beef",
 				RecipeList.getJapchaeSteps(), 35, "File:src/application/Korean_Flag.png", "Korean"));
 		dishes.add(new Dish("Sundubu Jjigae", "Soft tofu stew with vegetables and sometimes meat",
-				RecipeList.getSundubuJjigaeSteps(), 30, "File:src/application/Italian_Flag.png", "Korean"));
+				RecipeList.getSundubuJjigaeSteps(), 30, "File:src/application/Korean_Flag.png", "Korean"));
 		dishes.add(new Dish("Samgyeopsal", "Grilled pork belly served with dipping sauces",
 				RecipeList.getSamgyeopsalSteps(), 20, "File:src/application/Korean_Flag.png", "Korean"));
 		dishes.add(new Dish("Dolsot Bibimbap", "Bibimbap served in a hot stone pot",
@@ -212,23 +212,23 @@ public class DishProvider {
 		dishes.add(new Dish("Fish and Chips", "Battered and fried fish served with thick-cut fries",
 				RecipeList.getFishAndChipsSteps(), 30, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Shepherd's Pie", "Minced meat topped with mashed potatoes and baked",
-				RecipeList.getShepherdsPieSteps(), 45, "path_to_shepherds_pie_english.jpg", "English"));
+				RecipeList.getShepherdsPieSteps(), 45, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Full English Breakfast", "Classic breakfast with eggs, bacon, sausage, beans, and more",
-				RecipeList.getFullEnglishBreakfastSteps(), 25, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getFullEnglishBreakfastSteps(), 25, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Beef Wellington", "Beef fillet coated with pâté and wrapped in puff pastry",
-				RecipeList.getBeefWellingtonSteps(), 60, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getBeefWellingtonSteps(), 60, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Ploughman's Lunch", "Cold meal with cheese, bread, pickles, and more",
-				RecipeList.getPloughmansLunchSteps(), 15, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getPloughmansLunchSteps(), 15, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Bangers and Mash", "Sausages served with mashed potatoes and onion gravy",
-				RecipeList.getBangersAndMashSteps(), 35, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getBangersAndMashSteps(), 35, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Cornish Pasty", "Pastry filled with meat, potatoes, and vegetables",
-				RecipeList.getCornishPastySteps(), 40, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getCornishPastySteps(), 40, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Steak and Kidney Pie", "Pie filled with diced beef, kidney, and gravy",
-				RecipeList.getSteakAndKidneyPieSteps(), 50, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getSteakAndKidneyPieSteps(), 50, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Eton Mess", "Dessert with strawberries, meringue, and whipped cream",
-				RecipeList.getEtonMessSteps(), 20, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getEtonMessSteps(), 20, "File:src/application/English_Flag.png", "English"));
 		dishes.add(new Dish("Tea and Scones", "Traditional afternoon tea with scones and clotted cream",
-				RecipeList.getTeaAndSconesSteps(), 15, "File:src/application/Irish_Flag.png", "English"));
+				RecipeList.getTeaAndSconesSteps(), 15, "File:src/application/English_Flag.png", "English"));
 
 		return dishes;
 	}

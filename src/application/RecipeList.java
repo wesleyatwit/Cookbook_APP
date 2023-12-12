@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class RecipeList {
-// Italian Recipes
+	// Italian Recipes
 	static public List<String> getSpaghettiBologneseSteps() {
 		return Arrays.asList("Boil water in a large pot.", "Cook spaghetti according to package instructions.",
 				"In a separate pan, brown ground beef over medium heat.",
